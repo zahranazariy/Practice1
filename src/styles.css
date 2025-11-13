@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #f9f9f9;
+  color: rgba(20,20,20,0.8);
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(6px);
+}
