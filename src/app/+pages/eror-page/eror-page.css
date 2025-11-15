@@ -1,0 +1,46 @@
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ddd; 
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.error-box {
+  padding: 30px 40px;
+  border-radius: 18px;
+  background: rgba(120, 120, 128, 0.28);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+  max-width: 450px;
+}
+
+.error-box h1 {
+  font-size: 4rem;
+  color: #c62828; 
+  text-shadow: 0 0 10px rgba(198,40,40,0.4);
+}
+
+.error-box p {
+  color: #333;
+}
+
+.back-btn {
+  padding: 10px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: rgba(198,40,40,0.18);
+  color: #c62828;
+  border: 1px solid rgba(255,255,255,0.25);
+  transition: 0.25s ease;
+}
+
+.back-btn:hover {
+  background: rgba(198,40,40,0.28);
+  box-shadow: 0 0 12px rgba(198,40,40,0.3);
+}
