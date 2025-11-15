@@ -15,6 +15,7 @@ nav a {
   transition: color 0.3s ease;
 }
 nav a:hover{
-    background-color: rgba(229, 229, 229, 0.999);
+    background-color: rgba(229, 229, 229, 0.621);
+    color: blue;
     
 }
